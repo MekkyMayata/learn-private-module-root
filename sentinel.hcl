@@ -1,6 +1,3 @@
-mock "tfplan/v2" {
-  module {
-    source = "sentinel-mocks-store/mock-tfplan-v2.sentinel"
-  }
+policy "restrict-aws-s3-bucket-policy-and-tag" {
+  enforcement_level = "hard-mandatory"
 }
-
